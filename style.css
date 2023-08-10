@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Poppins', sans-serif; 
+    margin: 0px;
+    padding: 0px;
 }
 
 /* menu bar  */
@@ -11,13 +13,14 @@ nav{
     background-color: #2D25A0;
     align-items: center;
     justify-content: space-between;
+    padding: 42px 124px 49px 156px;
 
 }
 .pages{
     display: flex;
     grid-template-columns: repeat(5 1fr);
     grid-gap: 36px;
-    padding: 52px 156px 0px;
+    /* padding: 52px 156px 0px; */
 }
 
 .menu-link{
@@ -37,9 +40,6 @@ nav{
     color: #fff;
     padding-right: 8px;
 }
-.login{
-    padding-right: 124px;
-}
 /* menu bar end  */
 
 /* head section  */
@@ -57,7 +57,7 @@ nav{
     margin: 0px;
     padding-bottom: 27px;
     line-height: 80px;
-    padding-top: 131px;
+    padding-top: 72px;
 
 }
 #head-button{
