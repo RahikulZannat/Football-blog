@@ -48,7 +48,7 @@ nav{
     background-color: #2D25A0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 102px;
+    grid-gap: 38px;
 }
 .head-left-text h1{
     font-size: 64px;
@@ -58,6 +58,8 @@ nav{
     padding-bottom: 27px;
     line-height: 80px;
     padding-top: 72px;
+    width: 485px;
+height: 230px;
 
 }
 #head-button{
