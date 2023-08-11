@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway&display=swap');
 
+/* animation */
+@keyframes banner {
+    0%   {right:0px;}
+    25%  {right:60px;}
+    50%  {right:60px;}
+    75%  {right:0px;}
+    100% {right:0px;}
+  }
+
+/* animation */
+
 body{
     font-family: 'Poppins', sans-serif; 
     margin: 0px;
@@ -59,9 +70,11 @@ nav{
     line-height: 80px;
     padding-top: 72px;
     width: 485px;
-height: 230px;
+    height: 230px;
 
 }
+.head-left-text h1 {animation-timing-function: ease;}
+
 #head-button{
     background-color: #E02C6D;
     padding: 10px 24px;
@@ -79,6 +92,12 @@ height: 230px;
 .head-right img{
     width: 556.01px;
     height: 438px;
+    position: relative;
+    animation-name: banner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+
     
 }
 .head-left{
@@ -86,3 +105,48 @@ height: 230px;
 }
 
 /* head section end  */
+
+/* players section  */
+
+.player-img img{
+    width: 300px;
+    height: 256px;
+    padding: 15px 15px 0px 15px;
+}
+.player-name{
+    font-size: 28px;
+    padding: 0px 15px 0px 15px;
+    
+}
+.player-bio{
+    font-size: 16px;
+    color: #6C6C6C;
+    padding: 0px 15px 15px 15px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    justify-items: center;
+    padding-top: 72px;
+    margin: 0px 120px 120px 120px;
+    transition: height 4s;
+
+
+}
+.player{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    
+    
+}
+.player-container{
+    width: 330px;
+    
+}
+
+
+
+/* players section  */
