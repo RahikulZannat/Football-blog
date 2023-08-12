@@ -213,3 +213,20 @@ nav{
     animation: image 3s linear infinite ;
 }
 /* bottom section  */
+
+/* footer section  */
+
+.logo img{
+    width: 400px;
+    height: 110px;
+}
+
+footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.rights{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
