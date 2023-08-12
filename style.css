@@ -95,7 +95,7 @@ nav{
     height: 230px;
 
 }
-.head-left-text h1 {animation-timing-function: ease;}
+
 
 #head-button{
     background-color: #E02C6D;
@@ -229,4 +229,86 @@ footer{
 .rights{
     font-size: 18px;
     padding-bottom: 30px;
+}
+/* dropdown for mobile view  */
+nav li{
+    list-style: none;
+}
+nav > ul> li:hover > ul{
+    display: block;
+}
+.mobile-view{
+    display: none;
+}
+.dropdown{
+    display: none;
+}
+
+
+/* media queries  */
+
+@media only screen and (max-width:688px) {
+    nav{
+        display: none;
+    }
+
+    .head{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        justify-content: center;
+        margin: 0px;
+    
+    }
+    .head-left-text h1{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        margin-left: -30px;
+    }
+    .head-button{
+        margin-left: -30px;
+    }
+
+    .head-right img{
+        width: 329px;
+        height: 259.171px;
+        margin-left: 50px;
+    }
+    .head-left{
+        padding-left: 60px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 35px;
+    }
+    .bottom-intro{
+        width: 100%;
+    }
+    .bottom-img img{
+        width: 328px;
+        height: 248px;
+    }
+    .bottom-intro h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .logo img{
+        width: 80%;
+        padding-left: 25px;
+    }
+    .bottom-des{
+        width: 100%;
+    }
+    
+
 }
